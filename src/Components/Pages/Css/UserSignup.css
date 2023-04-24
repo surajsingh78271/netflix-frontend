@@ -1,0 +1,64 @@
+.usersignup{
+    max-width:  300px;
+     padding:  50px;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: black;
+     border-radius: 20px;
+ }
+ 
+ .usersignup .usersignup-form{
+     display: flex;
+     flex-direction: column;
+ }
+ .usersignup .usersignup-form h1{
+    color: #fc0a0a;
+ }
+ .usersignup >.usersignup-form >.input{
+     outline: 0;
+     
+     height: 35px;
+     border: 0;
+     margin-bottom: 15px;
+     border-radius: 5px;
+     padding: 5px 15px;
+ }
+ .usersignup .usersignup-form > div >button{
+     padding: 6px 20px;
+     font-size: 16px;
+     color: #fff;
+     border-radius: 5px;
+     background-color: #fc0a0a;
+     cursor: pointer;
+     margin-bottom: 10px;
+     margin-top: 20px;
+ }
+ .usersignup .usersignup-form > div >button:hover{
+    background-color: rgba(38, 54, 97, 0.767);
+    color: #fc0a0a;
+
+ }
+ .usersignupclose{
+    display: flex;
+    flex-direction: row-reverse;
+ }
+ .usersignupclose > span{
+    color: rgba(157, 153, 185, 0.5);
+    background-color: black;
+    font-weight: bolder;
+    font-size: 30px;
+ }
+ .usersignupclose>span:hover{
+    color: grey;
+    cursor: pointer;
+ }
+ .statusindicationgreen {
+   color: green;
+   margin-top: 20px;
+ }
+ .statusindicationred{
+   color: red;
+   margin-top: 20px;
+
+ }
+ 

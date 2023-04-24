@@ -1,0 +1,42 @@
+.banner{
+    height: 500px;
+    position: relative;
+    object-fit: contain;
+    color: #fff;
+}
+.banner-content{
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 200px;
+}
+.banner-content-discription{
+    width: 500px;
+    line-height: 1.3;
+    padding-top: 20px;
+    font-size: 16px;
+}
+.banner-content-button button{
+    cursor: pointer;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: red;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.banner-content-button button:hover{
+    color: black;
+    background-color: white;
+}
+.banner-fade{
+    height: 150px;
+    background-image: linear-gradient(180deg,transparent,rgba(27,27,27,0.61), #111);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

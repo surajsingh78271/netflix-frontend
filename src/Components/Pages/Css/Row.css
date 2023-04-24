@@ -1,0 +1,43 @@
+.row{
+    color: #fff;
+    margin-left: 20px;
+}
+.row-poster{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.row-poster::-webkit-scrollbar{
+    display: none;
+}
+.row-poster-image{
+    max-height: 100px;
+    object-fit: contain;
+    margin-left: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 450ms;
+}
+.row-poster-image:hover{
+    transform: scale(1.08);
+}
+.largeImage{
+    max-height: 250px;
+}
+.youtube-close{
+   display: flex;
+   flex-direction: row-reverse;
+   padding: 10px;
+}
+.youtube-close-h2{
+    color:red;
+    cursor: pointer;
+
+    
+   
+}
+.youtube-close-h2:hover{
+    color: rgb(241, 106, 106);
+
+}
